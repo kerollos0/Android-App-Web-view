@@ -1,0 +1,77 @@
+body{
+	margin:0;
+	color:#6a6f8c;
+	background:#c8c8c8;
+	font:'Open Sans',sans-serif;
+    height: auto;
+    direction: rtl;
+}
+
+
+.wrap{
+	width:100%;
+	margin:auto;
+	max-width:525px;
+	height: auto;
+	position:relative;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+.forget-pass {
+	width:100%;
+	min-height: 655px;
+	position:absolute;
+	background:#fff;
+}
+.forget-pass h1
+{
+     color: #fff;
+    background-color: #052763;
+    border-color: #46b8da;
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.42857143;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 0;
+}
+.forget-pass .recover
+{
+    background-color: #f0eff91a;
+    width:100%;
+    min-height:350px;
+    margin: 60px auto;
+    border: 2px solid #052763b5;
+}
+.forget-pass .recover label
+{
+    color: #052763;
+    font-size: 30px;
+    margin-top: 60px;     
+    margin-right: 30px; 
+    margin-bottom: 20px; 
+}
+
+.forget-pass .recover .input
+{
+    color: #052763;
+    font-size: 25px;
+    width: 90%;
+    margin: auto
+     
+}
+.forget-pass .recover button
+{
+    font-size: 25px;
+    margin-right: 30px;
+    margin-top: 50px;
+    width: 200px;
+     
+}
+.form-control
+{
+    height: auto;
+}
